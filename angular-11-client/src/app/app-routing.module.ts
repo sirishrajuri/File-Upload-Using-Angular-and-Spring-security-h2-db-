@@ -8,9 +8,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { BoardUserComponent } from './board-user/board-user.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
+import { FileUploadComponent } from './components/file-upload/file-upload.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: FileUploadComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'profile', component: ProfileComponent },

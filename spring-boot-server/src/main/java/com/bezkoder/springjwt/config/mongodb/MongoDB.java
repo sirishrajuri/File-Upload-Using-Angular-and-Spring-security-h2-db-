@@ -27,7 +27,7 @@ public class MongoDB {
 
     @Bean
     public MongoDatabaseFactory mongoDbFactory(MongoClient mongoClient) {
-        return new SimpleMongoClientDatabaseFactory(mongoClient, "Upload_File_DB");
+        return new SimpleMongoClientDatabaseFactory(mongoClient, "UploadFiles_DB");
     }
 
     @Bean(name = "noSqlMongoTemplate")

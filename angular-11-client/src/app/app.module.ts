@@ -14,6 +14,7 @@ import { BoardModeratorComponent } from './board-moderator/board-moderator.compo
 import { BoardUserComponent } from './board-user/board-user.component';
 
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
+import { FileUploadComponent } from './components/file-upload/file-upload.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { authInterceptorProviders } from './_helpers/auth.interceptor';
     ProfileComponent,
     BoardAdminComponent,
     BoardModeratorComponent,
-    BoardUserComponent
+    BoardUserComponent,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,
