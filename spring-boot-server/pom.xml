@@ -9,7 +9,7 @@
 		<version>2.5.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
+	<groupId>com.lavanya</groupId>
 	<artifactId>spring-boot-security-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-security-jwt</name>
@@ -90,7 +90,7 @@
 		<dependency>
 			<groupId>net.lingala.zip4j</groupId>
 			<artifactId>zip4j</artifactId>
-			<version>2.10.0</version> <!-- use the latest version -->
+			<version>2.10.0</version>
 		</dependency>
 
 		<dependency>
